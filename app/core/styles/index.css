@@ -9,13 +9,31 @@
 }
 
 @layer base {
+  /*h1{}*/
   h1 {
-    @apply text-5xl;
-    @apply text-white;
+    @apply text-7xl;
+    color: var(--portfolio-primary);
+    margin-left: -4px;
   }
   h2 {
-    @apply text-3xl;
+    @apply text-5xl;
+    margin-left: -2px;
+    color: var(--portfolio-primary);
   }
+  h3 {
+    @apply text-2xl;
+    margin-left: -2px;
+    color: var(--portfolio-text);
+  }
+  hr {
+    border-color: var(--portfolio-primary);
+  }
+}
+
+:root {
+  --portfolio-background: #3d3e42;
+  --portfolio-text: #fff;
+  --portfolio-primary: #ff9e5a;
 }
 
 .title {

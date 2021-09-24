@@ -5,11 +5,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      boxShadow: {
+        rounded: "0 30px 75px -12px rgba(0, 0, 0, 0.6)",
+      },
       colors: {
-        default: {
-          primary: "#ff9e5a",
-          text: "#FFF",
-          background: "#3d3e42",
+        portfolio: {
+          primary: "var(--portfolio-primary)",
+          text: "var(--portfolio-text)",
+          background: "var(--portfolio-background)",
         },
       },
       backgroundImage: (theme) => ({
@@ -17,6 +20,10 @@ module.exports = {
       }),
       height: (theme) => ({
         navbar: "80px",
+        125: "500px",
+      }),
+      width: (theme) => ({
+        125: "500px",
       }),
       marginTop: (theme) => ({
         "navbar-offset": "-80px",

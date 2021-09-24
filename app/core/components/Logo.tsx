@@ -3,7 +3,7 @@ import React from "react"
 const Logo = () => {
   return (
     <>
-      <h1>SCOTT PENHALL</h1>
+      <h2>SCOTT PENHALL</h2>
     </>
   )
 }
