@@ -22,6 +22,10 @@ module.exports = {
         navbar: "80px",
         125: "500px",
       }),
+      marginTop: (theme) => ({
+        "-navbar": "-80px",
+        navbar: "80px",
+      }),
       width: (theme) => ({
         125: "500px",
       }),

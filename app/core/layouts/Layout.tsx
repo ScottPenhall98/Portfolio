@@ -17,7 +17,7 @@ const Layout = ({ title, children }: LayoutProps) => {
         <title>{title || "portfolio"}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="h-full bg-portfolio-background">
+      <div className="min-h-screen h-full bg-portfolio-background">
         <Navbar />
         <div className={"mt-10"}>{children}</div>
       </div>
