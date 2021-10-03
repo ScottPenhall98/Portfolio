@@ -1,9 +1,11 @@
 import React from "react"
+import Penguin from "../../../public/penguin_default.png"
+import { Image } from "blitz"
 
 const Logo = () => {
   return (
     <>
-      <h2>SCOTT PENHALL</h2>
+      <Image src={Penguin} alt="Penguin Logo" width={"75"} height={"75"} />
     </>
   )
 }

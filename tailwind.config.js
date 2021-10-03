@@ -19,7 +19,7 @@ module.exports = {
         "profile-image": "url('/Profile.jpg')",
       }),
       height: (theme) => ({
-        navbar: "80px",
+        navbar: "100px",
         125: "500px",
       }),
       marginTop: (theme) => ({
